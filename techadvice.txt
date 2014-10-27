@@ -1,0 +1,25 @@
+Running "killall sh" is a VERY BAD THING.
+Never leave an iPod in a half-full glass of water for several hours.
+Don't drop your tablet on bathroom tile.
+Always make backups of your backups of your backups.
+Never go anywhere near Creative Cloud.
+Windows Movie Maker stinks at 99% of all A/V projects.
+Whenever you read Microsoft's system requirements for a Windows version, mentally double them.
+Never try using WinPenguins to drop a hint about switching.
+Wine runs everything but what you need it for.
+Anyone who says the new version of Cisco WebEx works on Linux IS A LIAR.
+Using HexChat's WALLCHAN command is a VERY BAD THING.
+Remember to secure #opers and #services on any InspIRCd instance you run.
+Using Thunderbird as an IRC client is extremely silly.
+Using Opera as an IRC client is very silly.
+Using "/msg GameServ roulette" is a VERY BAD THING.
+Messing around with GRUB for no reason is a VERY BAD THING.
+The Squeezebox Radio is the Best. Music. Player. Ever.
+Print sharing between a Linux server and a Windows client is an exercise in futility.
+Windows computers need to be restarted every 12-24 hours, or they will keel over dead.
+Vector is superior to raster in all use cases other than photography.
+Using "yes" on a Unix system is a VERY STUPID THING.
+A MIME is a terrible thing to waste.
+VirginiaBot is the most reliable source of tech advice available.
+Contrary to popular rumor, shaky internet connections are not caused by earthquakes.
+Restarting Chrome every so often is a very wise idea.
