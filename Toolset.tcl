@@ -856,11 +856,11 @@ set wordofday_cur $wordofday
 	} elseif {$networkid == 2} {
         putlog "$networkid - putting topic"
 	    if {$ismisc == 1 && $ismiscgeeksirc == 1} {
-		putquick "TOPIC $topicchan :My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday\002 | Be warned: *anything* can happen here! | To play Double Uno or Uno Attack, use !uno. (Use !unovar to choose a variant.) | $miscgeeksirc | $misc"
+		putquick "TOPIC $topicchan :My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday\002 | Be warned: *anything* can happen here! | $miscgeeksirc | $misc"
 	    } elseif {$ismisc == 1 && $ismiscgeeksirc == 0} {
-		putquick "TOPIC $topicchan :My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday\002 | Be warned: *anything* can happen here! | To play Double Uno or Uno Attack, use !uno. (Use !unovar to choose a variant.) | $misc"
+		putquick "TOPIC $topicchan :My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday\002 | Be warned: *anything* can happen here! | $misc"
 	    } else {
-		putquick "TOPIC $topicchan :My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday\002 | Be warned: *anything* can happen here! | To play Double Uno or Uno Attack, use !uno. (Use !unovar to choose a variant.)"}
+		putquick "TOPIC $topicchan :My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday\002 | Be warned: *anything* can happen here!"}
         } elseif {$networkid == 4} {
         putlog "$networkid - putting topic"
         putquick "TOPIC $topicchan :General testing channel. All users opped. For +a and up, make your own channel."
@@ -939,11 +939,11 @@ if {$networkid == 5} {if {$miscrizon_cur == ""} {set ismiscrizon 0} else {set is
 		set $newtopic "My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday_cur\002 | Be warned - there is frequent bot insanity in this channel."}
 	} elseif {$networkid == 2} {
 	    if {$ismisc == 1 && $ismiscgeeksirc == 1} {
-		set newtopic "My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday_cur\002 | Be warned: *anything* can happen here! | To play Double Uno or Uno Attack, use !uno. (Use !unovar to choose a variant.) | $miscgeeksirc_cur | $misc_cur"
+		set newtopic "My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday_cur\002 | Be warned: *anything* can happen here! | $miscgeeksirc_cur | $misc_cur"
 	    } elseif {$ismisc == 1 && $ismiscgeeksirc == 0} {
-		set newtopic "My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday_cur\002 | Be warned: *anything* can happen here! | To play Double Uno or Uno Attack, use !uno. (Use !unovar to choose a variant.) | $misc_cur"
+		set newtopic "My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday_cur\002 | Be warned: *anything* can happen here! | $misc_cur"
 	    } else {
-		set newtopic "My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday_cur\002 | Be warned: *anything* can happen here! | To play Double Uno or Uno Attack, use !uno. (Use !unovar to choose a variant.)"}
+		set newtopic "My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday_cur\002 | Be warned: *anything* can happen here!"}
         } elseif {$networkid == 5} {
 	    if {$ismisc == 1 && $ismiscrizon == 1} {
 		set newtopic "My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday_cur\002 | $miscrizon_cur | $misc_cur"
@@ -952,7 +952,7 @@ if {$networkid == 5} {if {$miscrizon_cur == ""} {set ismiscrizon 0} else {set is
 	    } else {
 		set newtopic "My personal channel. All idlers welcome! | Today's word of the day: \002$wordofday_cur\002"}
 	} else {
-}
+
 # Compare with current topic
 set oldtopic [topic $topicchan]
 if {$newtopic == $oldtopic} {
